@@ -18,7 +18,7 @@ const Footer: FC = () => {
           </p>
           <div className="md:w-[454px] w-full rounded-[15px] border-[1px] border-[#29B080] px-[16px] py-[12px] relative">
             <input
-              className="outline-none bg-transparent placeholder-[#29B080]"
+              className="outline-none bg-transparent placeholder-[#29B080] text-white"
               placeholder="Email"
             />
             <button className="text-white absolute -top-[1px] -right-2 bg-[#29B080] px-[16px] py-[12px] rounded-[15px] border-[1px] border-[#29B080]">
@@ -28,7 +28,7 @@ const Footer: FC = () => {
         </div>
         <div className="flex md:gap-[110px] gap-[30px] mt-10 lg:mt-0 w-full items-start justify-center">
           <div className="flex flex-col gap-[28px]">
-            <h1 className="text-[21px] font-semibold">Company</h1>
+            <h1 className="text-[21px] font-semibold text-white">Company</h1>
             <div className="flex flex-col gap-[20px]">
               {FOOTER_COMPANY_LINKS.map((item, index) => (
                 <li className="list-none text-white text-[16px]" key={index}>
@@ -38,7 +38,7 @@ const Footer: FC = () => {
             </div>
           </div>
           <div className="flex flex-col gap-[28px]">
-            <h1 className="text-[21px] font-semibold">Learn</h1>
+            <h1 className="text-[21px] font-semibold text-white">Learn</h1>
             <div className="flex flex-col gap-[20px]">
               {LEARN_LINKS.map((item, index) => (
                 <li className="list-none text-white text-[16px]" key={index}>
@@ -48,7 +48,7 @@ const Footer: FC = () => {
             </div>
           </div>
           <div className="flex flex-col gap-[28px]">
-            <h1 className="text-[21px] font-semibold">Connect </h1>
+            <h1 className="text-[21px] font-semibold text-white">Connect </h1>
             <div className="flex flex-col gap-[20px] items-start justify-start">
               {CONNECT_LINKS.map((item, index) => (
                 <li
