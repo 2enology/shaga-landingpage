@@ -8,7 +8,9 @@ const InfiniteSlider = () => {
             <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
           </div>
           <div className="flex flex-col gap-[1px]">
-            <p className="text-[32px]">“I want this thing to exist”</p>
+            <p className="text-[32px] text-white">
+              “I want this thing to exist”
+            </p>
             <span className="text-[20px] text-gray-500">
               - Anatoly Yakovenko{" "}
             </span>
@@ -19,7 +21,9 @@ const InfiniteSlider = () => {
             <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
           </div>
           <div className="flex flex-col gap-[1px]">
-            <p className="text-[32px]">“I want this thing to exist”</p>
+            <p className="text-[32px] text-white">
+              “I want this thing to exist”
+            </p>
             <span className="text-[20px] text-gray-500">
               - Anatoly Yakovenko{" "}
             </span>
@@ -30,7 +34,9 @@ const InfiniteSlider = () => {
             <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
           </div>
           <div className="flex flex-col gap-[1px]">
-            <p className="text-[32px]">“I want this thing to exist”</p>
+            <p className="text-[32px] text-white">
+              “I want this thing to exist”
+            </p>
             <span className="text-[20px] text-gray-500">
               - Anatoly Yakovenko{" "}
             </span>
@@ -41,7 +47,9 @@ const InfiniteSlider = () => {
             <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
           </div>
           <div className="flex flex-col gap-[1px]">
-            <p className="text-[32px]">“I want this thing to exist”</p>
+            <p className="text-[32px] text-white">
+              “I want this thing to exist”
+            </p>
             <span className="text-[20px] text-gray-500">
               - Anatoly Yakovenko{" "}
             </span>
@@ -52,7 +60,9 @@ const InfiniteSlider = () => {
             <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
           </div>
           <div className="flex flex-col gap-[1px]">
-            <p className="text-[32px]">“I want this thing to exist”</p>
+            <p className="text-[32px] text-white">
+              “I want this thing to exist”
+            </p>
             <span className="text-[20px] text-gray-500">
               - Anatoly Yakovenko{" "}
             </span>
@@ -63,7 +73,9 @@ const InfiniteSlider = () => {
             <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
           </div>
           <div className="flex flex-col gap-[1px]">
-            <p className="text-[32px]">“I want this thing to exist”</p>
+            <p className="text-[32px] text-white">
+              “I want this thing to exist”
+            </p>
             <span className="text-[20px] text-gray-500">
               - Anatoly Yakovenko{" "}
             </span>
@@ -74,7 +86,9 @@ const InfiniteSlider = () => {
             <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
           </div>
           <div className="flex flex-col gap-[1px]">
-            <p className="text-[32px]">“I want this thing to exist”</p>
+            <p className="text-[32px] text-white">
+              “I want this thing to exist”
+            </p>
             <span className="text-[20px] text-gray-500">
               - Anatoly Yakovenko{" "}
             </span>
@@ -85,7 +99,9 @@ const InfiniteSlider = () => {
             <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
           </div>
           <div className="flex flex-col gap-[1px]">
-            <p className="text-[32px]">“I want this thing to exist”</p>
+            <p className="text-[32px] text-white">
+              “I want this thing to exist”
+            </p>
             <span className="text-[20px] text-gray-500">
               - Anatoly Yakovenko{" "}
             </span>
