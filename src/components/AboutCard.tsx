@@ -15,7 +15,9 @@ const AboutCard = (props: {
       <h1 className="text-white font-bold md:text-[48px] text-[40px]">
         {props.secondTitle}
       </h1>
-      <span className="text-[18px] text-[#B3B3B7]">{props.content}</span>
+      <span className="text-[18px] text-[#B3B3B7] logofont">
+        {props.content}
+      </span>
     </div>
   );
 };
