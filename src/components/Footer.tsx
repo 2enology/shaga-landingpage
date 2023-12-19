@@ -5,9 +5,9 @@ import { CONNECT_LINKS, FOOTER_COMPANY_LINKS, LEARN_LINKS } from "@/config";
 
 const Footer: FC = () => {
   return (
-    <div className="py-[23px] w-full flex items-center justify-center flex-col">
+    <div className="py-[23px] w-full flex items-center justify-center flex-col mt-[122px]">
       <img src="/imgs/footerTopBar.png" className="w-full" alt="" />
-      <div className="w-full max-w-[1340px] px-[15px] lg:flex items-center justify-between mt-[90px]">
+      <div className="w-full max-w-[1266px] px-[15px] lg:flex items-center justify-between mt-[122px]">
         <div className="flex flex-col lg:items-start items-center lg:justify-start gap-[41px] w-full">
           <div className="flex items-center justify-center gap-[14px]">
             <img alt="/imgs/footerLogo.png" src="/imgs/footerLogo.png" />

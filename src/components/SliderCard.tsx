@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { FC } from "react";
-import { SliderComma } from "../Svglist";
+import { SliderComma } from "./Svglist";
 
 const SliderCard: FC = () => {
   return (
