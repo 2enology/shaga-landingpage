@@ -14,7 +14,7 @@ const About: FC = () => {
           <AboutCard />
           <AboutCard />
         </div>
-        <div className="w-full flex flex-col">
+        <div className="flex flex-col w-full">
           <div
             className="flex items-center justify-start text-[24px] md:text-[64px] font-bold md:gap-[32px] gap-[10px] lg:ml-[100px]
            "
@@ -25,7 +25,7 @@ const About: FC = () => {
               className="md:w-[160px] w-[50px]"
             />
 
-            <span className="text-transparent bg-gradient-to-br from-[#ffffff] to-[#859e958a] bg-clip-text ">
+            <span className="text-transparent bg-gradient-to-br from-[#ffffff] to-[#2e2e2e6e] bg-clip-text ">
               <span className="text-white">What people say </span>
               about us
             </span>
@@ -34,7 +34,7 @@ const About: FC = () => {
             <SliderCard />
           </div>
         </div>
-        <div className="w-full flex flex-col">
+        <div className="flex flex-col w-full">
           <div
             className="flex items-center justify-start text-[24px] md:text-[64px] font-bold md:gap-[32px] gap-[10px] lg:ml-[100px]
            "
@@ -45,7 +45,7 @@ const About: FC = () => {
               className="md:w-[160px] w-[50px]"
             />
 
-            <span className="text-transparent bg-gradient-to-br from-[#ffffff] to-[#859e958a] bg-clip-text ">
+            <span className="text-transparent bg-gradient-to-br from-[#ffffff] to-[#2e2e2e6e] bg-clip-text ">
               <span className="text-white">What Game Devs </span>
               say
             </span>
