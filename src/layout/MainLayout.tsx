@@ -21,15 +21,12 @@ const MainLayout: FC<Props> = ({
   pageLoading,
 }) => {
   return (
-    <div className="relative overflow-hidden w-full flex items-start justify-center flex-col">
+    <div className="relative flex flex-col items-start justify-center w-full overflow-hidden">
       <Header />
       <main
         className={`relative overflow-hidden w-full flex items-start justify-center flex-col ${
           className ? className : ""
         }`}
-        style={{
-          paddingBottom: 480,
-        }}
       >
         {children}
       </main>

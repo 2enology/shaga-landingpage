@@ -5,7 +5,11 @@ const InfiniteSlider = () => {
       <div className="slide-track">
         <div className="flex items-center justify-center slide gap-[29px] py-2">
           <div className="flex items-center justify-center ">
-            <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
+            <img
+              src="/imgs/sliderAvatar.png"
+              className="w-[70px] h-[70px]"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[1px]">
             <p className="text-[32px] text-white">
@@ -18,7 +22,11 @@ const InfiniteSlider = () => {
         </div>
         <div className="flex items-center justify-center slide gap-[29px] py-2">
           <div className="flex items-center justify-center ">
-            <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
+            <img
+              src="/imgs/sliderAvatar.png"
+              className="w-[70px] h-[70px]"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[1px]">
             <p className="text-[32px] text-white">
@@ -31,7 +39,11 @@ const InfiniteSlider = () => {
         </div>
         <div className="flex items-center justify-center slide gap-[29px] py-2">
           <div className="flex items-center justify-center ">
-            <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
+            <img
+              src="/imgs/sliderAvatar.png"
+              className="w-[70px] h-[70px]"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[1px]">
             <p className="text-[32px] text-white">
@@ -44,7 +56,11 @@ const InfiniteSlider = () => {
         </div>
         <div className="flex items-center justify-center slide gap-[29px] py-2">
           <div className="flex items-center justify-center ">
-            <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
+            <img
+              src="/imgs/sliderAvatar.png"
+              className="w-[70px] h-[70px]"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[1px]">
             <p className="text-[32px] text-white">
@@ -57,7 +73,11 @@ const InfiniteSlider = () => {
         </div>
         <div className="flex items-center justify-center slide gap-[29px] py-2">
           <div className="flex items-center justify-center ">
-            <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
+            <img
+              src="/imgs/sliderAvatar.png"
+              className="w-[70px] h-[70px]"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[1px]">
             <p className="text-[32px] text-white">
@@ -70,7 +90,11 @@ const InfiniteSlider = () => {
         </div>
         <div className="flex items-center justify-center slide gap-[29px] py-2">
           <div className="flex items-center justify-center ">
-            <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
+            <img
+              src="/imgs/sliderAvatar.png"
+              className="w-[70px] h-[70px]"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[1px]">
             <p className="text-[32px] text-white">
@@ -83,7 +107,11 @@ const InfiniteSlider = () => {
         </div>
         <div className="flex items-center justify-center slide gap-[29px] py-2">
           <div className="flex items-center justify-center ">
-            <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
+            <img
+              src="/imgs/sliderAvatar.png"
+              className="w-[70px] h-[70px]"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[1px]">
             <p className="text-[32px] text-white">
@@ -96,7 +124,11 @@ const InfiniteSlider = () => {
         </div>
         <div className="flex items-center justify-center slide gap-[29px] py-2">
           <div className="flex items-center justify-center ">
-            <img src="/imgs/avatar.png" className="w-[70px] h-[70px]" alt="" />
+            <img
+              src="/imgs/sliderAvatar.png"
+              className="w-[70px] h-[70px]"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[1px]">
             <p className="text-[32px] text-white">

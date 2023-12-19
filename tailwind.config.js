@@ -11,8 +11,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        custom: "0 5px 7px #245D6E",
-        join: "0 6px 3px 0 #29b0804a",
+        custom: "0 5px 2px #245D6E",
+        join: "0 25px 50px 10px #29b0804a",
       },
     },
   },
