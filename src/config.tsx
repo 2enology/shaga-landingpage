@@ -11,12 +11,12 @@ export const HEADER_LINKS = [
     link: "/features",
   },
   {
-    title: "Demo",
-    link: "/demo",
+    title: "Testimonials",
+    link: "/testimonial",
   },
   {
-    title: "Testimonial",
-    link: "/testimonial",
+    title: "Supporters",
+    link: "/supporters",
   },
 ];
 
