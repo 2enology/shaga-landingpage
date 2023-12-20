@@ -5,9 +5,6 @@ const AbsoluteBg: FC = () => {
   return (
     <div className="hidden w-full lg:block">
       <div className="w-[265px] h-[265px] bg-[#1BA874] absolute top-[-107px] left-[-17px] filter blur-[200px]" />{" "}
-      <div className="absolute top-[122px] right-[-102px] -z-10">
-        <img src="/imgs/home.png" className="object-cover" alt="" />
-      </div>
       {/* <div className="absolute top-[122px] right-[-132px] -z-10 filter blur-[30px]">
         <img src="/imgs/Ellipse69.png" className="object-cover" alt="" />
       </div> */}

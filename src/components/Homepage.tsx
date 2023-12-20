@@ -5,7 +5,7 @@ import { Gradient1Icon, Gradient2Icon, StreamNowIcon } from "./Svglist";
 const Header: FC = () => {
   return (
     <div className="w-full flex items-center justify-center md:mt-[81px] mt-[40px]">
-      <div className="w-full max-w-[1266px] px-[15px] flex items-center justify-between">
+      <div className="w-full max-w-[1266px] px-[15px] flex items-center justify-between relative">
         <div className="flex flex-col items-start justify-start w-full">
           <div className="relative max-w-[700px] font-[600] py-[96px] flex flex-col gap-[48px]">
             <div className="absolute top-0">
@@ -34,6 +34,9 @@ const Header: FC = () => {
               </button>
             </div>
           </div>
+        </div>
+        <div className="absolute top-[-64px] right-[-149px] -z-10">
+          <img src="/imgs/home.png" className="object-cover" alt="" />
         </div>
       </div>
     </div>

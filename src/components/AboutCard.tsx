@@ -12,7 +12,7 @@ const AboutCard = (props: {
       <p className="text-[37px] font-bold mt-[36px] text-transparent bg-gradient-to-br from-[#32c28da9] to-[#12fff73b] bg-clip-text">
         {props.role}
       </p>
-      <h1 className="text-white font-bold md:text-[48px] text-[40px]">
+      <h1 className="text-white font-bold md:text-[48px] text-[35px]">
         {props.secondTitle}
       </h1>
       <span className="text-[18px] text-[#B3B3B7] logofont">
