@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { FC } from "react";
+"use client";
+import { FC, useEffect, useState } from "react";
 import SliderCard from "./SliderCard";
 import AboutCard from "./AboutCard";
 import {
@@ -8,11 +9,12 @@ import {
   Gradient1Icon,
   Gradient2Icon,
 } from "./Svglist";
+import AboutSlider from "./AboutSlider";
 
 const About: FC = () => {
   return (
-    <div className="w-full flex items-center justify-center mt-[155px] flex-col">
-      <div className="w-full max-w-[1266px] px-[15px] flex flex-col gap-[70px] items-center justify-start relative">
+    <div className="w-full flex items-center justify-center mt-[155px] flex-col overflow-hidden">
+      <div className="w-full md:px-[40px] px-[15px] flex flex-col gap-[70px] items-center justify-start relative max-w-[93rem] overflow-hidden">
         <div className="absolute left-[385px] filter blur-[100px] -z-10 top-[126px]">
           <img src="/imgs/Ellipse69.png" className="object-cover" alt="" />
         </div>
@@ -43,9 +45,7 @@ const About: FC = () => {
               about us
             </span>
           </div>
-          <div className="w-full grid lg:grid-cols-3 grid-cols-1 gap-[40px] mt-[76px]">
-            <SliderCard />
-          </div>
+          <AboutSlider />
         </div>
         <div className="flex flex-col w-full">
           <div
@@ -69,9 +69,7 @@ const About: FC = () => {
               say
             </span>
           </div>
-          <div className="w-full grid lg:grid-cols-3 grid-cols-1 gap-[40px] mt-[76px]">
-            <SliderCard />
-          </div>
+          <AboutSlider />
         </div>
       </div>
     </div>
