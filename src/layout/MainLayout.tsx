@@ -13,13 +13,7 @@ interface Props {
   pageLoading?: boolean;
 }
 
-const MainLayout: FC<Props> = ({
-  children,
-  className,
-  bgSrc,
-  bgClass,
-  pageLoading,
-}) => {
+const MainLayout: FC<Props> = ({ children, className }) => {
   return (
     <div className="relative flex flex-col items-start justify-center w-full overflow-hidden">
       <Header />
@@ -31,9 +25,6 @@ const MainLayout: FC<Props> = ({
         {children}
       </main>
       <Footer />
-      {bgSrc && !pageLoading && (
-        <img src={bgSrc} className={bgClass} alt="nft image" />
-      )}
       <AbsoluteBg />
     </div>
   );

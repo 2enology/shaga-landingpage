@@ -1,12 +1,12 @@
-import { HEADER_LINKS } from "@/config";
+/* eslint-disable @next/next/no-img-element */
 import { FC } from "react";
 import { Gradient1Icon, Gradient2Icon, StreamNowIcon } from "./Svglist";
 
 const Header: FC = () => {
   return (
-    <div className="w-full flex items-center justify-center md:mt-[81px] mt-[40px]">
-      <div className="w-full max-w-[1266px] px-[15px] flex items-center justify-between relative">
-        <div className="flex flex-col items-start justify-start w-full">
+    <div className="w-full flex items-center justify-center md:mt-[10px] mt-[40px] relative">
+      <div className="w-full max-w-[93rem]  px-[15px] md:px-[40px] flex items-center justify-between relative">
+        <div className="flex flex-col-reverse items-center justify-between w-full lg:flex-row">
           <div className="relative max-w-[700px] font-[600] py-[96px] flex flex-col gap-[48px]">
             <div className="absolute top-0">
               <Gradient1Icon />
@@ -14,9 +14,9 @@ const Header: FC = () => {
             <div className="top-[23px] left-[29px] absolute">
               <Gradient2Icon />
             </div>
-            <p className="text-white md:text-[88px] text-[40px]">
+            <p className="text-white md:text-[58px] lg:text-[88px] text-[35px]">
               Web3{" "}
-              <span className="text-transparent bg-gradient-to-tr from-white to-[#36C995] bg-clip-text md:text-[88px] text-[40px]">
+              <span className="text-transparent bg-gradient-to-tr from-white to-[#36C995] bg-clip-text md:text-[58px] lg:text-[88px] text-[40px]">
                 Cloud{" "}
               </span>
               Gaming
@@ -34,9 +34,9 @@ const Header: FC = () => {
               </button>
             </div>
           </div>
-        </div>
-        <div className="absolute top-[-64px] right-[-149px] -z-10">
-          <img src="/imgs/home.png" className="object-cover" alt="" />
+          <div className="relative flex items-center justify-end h-full -z-10">
+            <img src="/imgs/home.png" className="object-cover w-full" alt="" />
+          </div>
         </div>
       </div>
     </div>

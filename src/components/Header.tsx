@@ -11,7 +11,7 @@ const Header: FC = () => {
   return (
     <>
       <div className="py-[23px] w-full flex items-center justify-center">
-        <div className="w-full max-w-[1266px] px-[15px] flex items-center justify-between">
+        <div className="w-full max-w-[93rem]  px-[15px] md:px-[40px] flex items-center justify-between">
           <div className="flex items-center justify-center md:gap-[20px] gap-3 cursor-pointer">
             <img alt="/imgs/logo.png" src="/imgs/logo.png" />
             <p className="uppercase text-white md:text-[25px] text-[20px] logofont">
@@ -29,14 +29,14 @@ const Header: FC = () => {
           <div className="lg:gap-[42px] gap-[30px] items-center justify-center flex">
             {HEADER_LINKS.map((item, index) => (
               <li
-                className="text-[18px] text-[#929298] list-none hidden md:block cursor-pointer"
+                className="text-[18px] text-[#929298] list-none hidden lg:block cursor-pointer"
                 key={index}
               >
                 {item.title}
               </li>
             ))}
 
-            <button className="bg-[#29B080] rounded-[10px] text-white text-[18px] px-[21px] py-3">
+            <button className="bg-[#29B080] rounded-[10px] text-white text-[18px] px-[21px] py-3 hidden lg:block">
               Join Waitlist
             </button>
           </div>
@@ -70,6 +70,10 @@ const Header: FC = () => {
               DePin Track
             </p>
           </div>
+
+          <button className="bg-[#29B080] rounded-[10px] text-white text-[18px] px-[21px] py-3">
+            Join Waitlist
+          </button>
         </div>
       )}
     </>

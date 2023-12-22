@@ -4,7 +4,6 @@ import Homepage from "@/components/Homepage";
 import InfiniteSlider from "@/components/InfiniteSlider";
 import MainLayout from "@/layout/MainLayout";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -26,7 +25,6 @@ export default function Home() {
           <link rel="shortcut icon" href="/favicon.png"></link>
           <title>SGN</title>
         </Head>
-
         <Homepage />
         <InfiniteSlider />
         <About />
